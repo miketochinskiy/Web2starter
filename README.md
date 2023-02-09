@@ -1,6 +1,6 @@
-# Web Design 2 Starter
+# Google Doodle
 
-![Web 2 Starter](web2.webp)
+![Google Doodle]
 
 > Computers are dumb. Humans make them smart.
 
