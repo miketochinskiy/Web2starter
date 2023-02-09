@@ -1,0 +1,10 @@
+body {
+    background: rgb(200, 215, 100);
+}
+
+/* Stage */
+#stage {
+    background: #ccc;
+    height: 300px;
+    width: 600px;
+  }
