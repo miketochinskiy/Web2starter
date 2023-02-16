@@ -17,9 +17,9 @@
        <link rel="stylesheet" href="css/style.css">
 
        <!-- GSAP -->
-       <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+       <script src="https://unpkg.co/gsap@3/dist/gsap.min.js" defer></script>
        <!-- My Scripts -->
-       <script src="script.js"></script>
+       <script src="script.js" defer></script>
     
     <title>Tesla Google Doodle</title>
 </head>
@@ -30,8 +30,9 @@
     
     <!-- Doodle Stage -->
     <div id="stage">
+     
       <svg xmlns="http://www.w3.org/2000/svg" width="591" height="372" fill="none">
-        <path fill="none" d="M0 0h591v372H0z" />
+        <path fill="#FFFFFF" d="M0 0h591v372H0z" />
         <g id="googledoodle">
           <path fill="#fff" d="M2-130h596v634H2z" />
           <g id="doodle">
@@ -200,9 +201,10 @@
               </g>
             </g>
           </g>
-          <path stroke="#000" stroke-width="0" d="M2-130h596v634H2z" />
+          <path stroke="#FFFFFF" stroke-width="0" d="M2-130h596v634H2z" />
         </g>
       </svg>
+
     </div>
 
     <input type="text" />
