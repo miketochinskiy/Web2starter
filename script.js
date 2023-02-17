@@ -20,11 +20,12 @@ gsap.from("#Planet1", {
 })
 gsap.from("#Planet2", {
   repeat:-1,
-  rotate: -360,
+  rotate: -180,
   yoyo:true,
   scale: .001,
-  duration: 9,
+  duration: 7,
   x: 100,
+  y:200,
 })
 
 //gsap.to(".stars", {
